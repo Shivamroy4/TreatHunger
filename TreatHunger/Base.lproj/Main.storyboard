@@ -95,6 +95,9 @@
                                 <state key="normal" image="call">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="CallButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vpK-tP-K4a"/>
+                                </connections>
                             </button>
                         </subviews>
                         <animations/>
@@ -170,5 +173,5 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
-    <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+    <color key="tintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
 </document>

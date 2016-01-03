@@ -13,19 +13,36 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationController!.navigationBar.barTintColor = UIColor.blackColor()
-       
-        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.orangeColor() ]
-    
         
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        // Navigation Bar Customization
+        
+        
+        navigationController!.navigationBar.barTintColor = UIColor.purpleColor()
+        
+        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor() ]
+
+        
+            }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
+    
+    
+    // Call Button Action
+    
+    @IBAction func CallButtonPressed(sender: AnyObject) {
+        callNumber("8120577776")
+       }
 
+    private func callNumber(phoneNumber:String) {
+        if let phoneCallURL:NSURL = NSURL(string: "tel://\(phoneNumber)") {
+            let application:UIApplication = UIApplication.sharedApplication()
+            if (application.canOpenURL(phoneCallURL)) {
+                application.openURL(phoneCallURL);
+            }
+        }
 }
-
+}
