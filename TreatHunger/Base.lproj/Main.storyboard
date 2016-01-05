@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="4kE-3c-uKa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="4kE-3c-uKa">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -14,84 +15,76 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="hSt-Uq-ffU">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="504" id="59x-fZ-Gf8"/>
-                                    <constraint firstAttribute="width" constant="320" id="RE8-u9-Wbg"/>
-                                </constraints>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fi-S0-qCf">
-                                <rect key="frame" x="21" y="80" width="279" height="62"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.90474098920822144" green="0.33667892217636108" blue="0.83796525001525879" alpha="0.5654296875" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="3uk-3p-3t4"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="V2F-16-1lB"/>
-                                    <constraint firstAttribute="height" constant="68" id="jh2-Gu-I5C"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="mTo-DN-oAb"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="   Restaurants" image="restaurantbutton">
-                                    <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="0.81561444256756754" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OV4-6g-FYr">
-                                <rect key="frame" x="21" y="180" width="279" height="62"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.90474098920822144" green="0.33667892217636108" blue="0.83796525001525879" alpha="0.5654296875" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="G8E-Wd-qgf"/>
-                                    <constraint firstAttribute="height" constant="68" id="KVl-Gb-wSn"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="NFd-tB-Ygq"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="bER-S2-8RV"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="     Bakeries" image="bakerybutton">
-                                    <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="0.81561444256756754" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u73-7D-geE">
-                                <rect key="frame" x="21" y="278" width="279" height="62"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.90474098920822144" green="0.33667892217636108" blue="0.83796525001525879" alpha="0.5654296875" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="280" id="6uX-b4-oxd"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="8uM-D0-mf7"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="NzH-Yi-jpz"/>
-                                    <constraint firstAttribute="height" constant="68" id="odp-mY-6m1"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Frozen Products" image="frozenbutton">
-                                    <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="0.81561444256756754" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPH-pb-izO">
-                                <rect key="frame" x="21" y="378" width="279" height="62"/>
-                                <animations/>
-                                <color key="backgroundColor" red="0.90474098920822144" green="0.33667892217636108" blue="0.83796525001525879" alpha="0.5654296875" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="68" id="DAi-82-L5E"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="SuE-AS-MBs"/>
-                                    <constraint firstAttribute="width" constant="280" id="d75-ey-XzF"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="uun-MW-Dom"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="   Bouquets" image="flowerbutton">
-                                    <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="0.81561444256756754" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" distribution="equalSpacing" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="YI8-9c-VbQ">
+                                <rect key="frame" x="21" y="80" width="557" height="317"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fi-S0-qCf">
+                                        <rect key="frame" x="0.0" y="0.0" width="557" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="0.12375950168918919" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="280" id="3uk-3p-3t4"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="V2F-16-1lB"/>
+                                            <constraint firstAttribute="height" constant="68" id="jh2-Gu-I5C"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="mTo-DN-oAb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="   Restaurants" image="restaurantbutton">
+                                            <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="0.81561444256756754" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OV4-6g-FYr">
+                                        <rect key="frame" x="0.0" y="83" width="557" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="0.12375950168918919" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="280" id="G8E-Wd-qgf"/>
+                                            <constraint firstAttribute="height" constant="68" id="KVl-Gb-wSn"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="NFd-tB-Ygq"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="bER-S2-8RV"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="     Bakeries" image="bakerybutton">
+                                            <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="0.81561444256756754" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u73-7D-geE">
+                                        <rect key="frame" x="0.0" y="166" width="557" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="0.12375950168918919" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="280" id="6uX-b4-oxd"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="8uM-D0-mf7"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="NzH-Yi-jpz"/>
+                                            <constraint firstAttribute="height" constant="68" id="odp-mY-6m1"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Frozen Products" image="frozenbutton">
+                                            <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="0.81561444256756754" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jPH-pb-izO">
+                                        <rect key="frame" x="0.0" y="249" width="557" height="68"/>
+                                        <color key="backgroundColor" white="1" alpha="0.12375950168918919" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="68" id="DAi-82-L5E"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="SuE-AS-MBs"/>
+                                            <constraint firstAttribute="width" constant="280" id="d75-ey-XzF"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="68" id="uun-MW-Dom"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="   Bouquets" image="flowerbutton">
+                                            <color key="titleShadowColor" red="1" green="0.5" blue="0.0" alpha="0.81561444256756754" colorSpace="calibratedRGB"/>
+                                        </state>
+                                    </button>
+                                </subviews>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zv0-w8-4xH">
                                 <rect key="frame" x="139" y="525" width="42" height="35"/>
-                                <animations/>
                                 <state key="normal" image="call">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -100,45 +93,20 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="u73-7D-geE" secondAttribute="centerX" id="0uO-Yf-ukW"/>
-                            <constraint firstItem="u73-7D-geE" firstAttribute="top" secondItem="OV4-6g-FYr" secondAttribute="bottom" constant="16" id="2Jm-rg-dmI"/>
-                            <constraint firstItem="hSt-Uq-ffU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="4Xi-4K-ncf"/>
-                            <constraint firstItem="7fi-S0-qCf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="4xJ-m9-diS"/>
-                            <constraint firstItem="jPH-pb-izO" firstAttribute="top" secondItem="u73-7D-geE" secondAttribute="bottom" constant="16" id="6Au-nh-oAL"/>
-                            <constraint firstItem="OV4-6g-FYr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4.5" id="8Ai-f4-riW"/>
-                            <constraint firstAttribute="centerX" secondItem="Zv0-w8-4xH" secondAttribute="centerX" id="BFy-W7-jU7"/>
-                            <constraint firstItem="u73-7D-geE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4.5" id="CSL-5z-2eJ"/>
-                            <constraint firstItem="jPH-pb-izO" firstAttribute="width" secondItem="OV4-6g-FYr" secondAttribute="width" id="EIe-zr-Pgv"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zv0-w8-4xH" secondAttribute="bottom" constant="8" id="FKr-s4-Qel"/>
-                            <constraint firstAttribute="centerX" secondItem="OV4-6g-FYr" secondAttribute="centerX" id="HPn-X8-OhV"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="u73-7D-geE" secondAttribute="trailing" constant="4.5" id="Hdy-iB-92i"/>
-                            <constraint firstItem="7fi-S0-qCf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4.5" id="I4n-el-fDw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="OV4-6g-FYr" secondAttribute="trailing" constant="4.5" id="KBr-Kx-dhP"/>
-                            <constraint firstItem="7fi-S0-qCf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="16" id="LqC-tY-qNv"/>
-                            <constraint firstItem="jPH-pb-izO" firstAttribute="width" secondItem="u73-7D-geE" secondAttribute="width" id="MJZ-mL-UFP"/>
-                            <constraint firstItem="OV4-6g-FYr" firstAttribute="top" secondItem="7fi-S0-qCf" secondAttribute="bottom" constant="16" id="PTO-yz-r7m"/>
-                            <constraint firstItem="u73-7D-geE" firstAttribute="top" secondItem="OV4-6g-FYr" secondAttribute="bottom" constant="16" id="QwU-hn-cuE"/>
-                            <constraint firstItem="hSt-Uq-ffU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="RlG-fa-LyV"/>
-                            <constraint firstItem="OV4-6g-FYr" firstAttribute="top" secondItem="7fi-S0-qCf" secondAttribute="bottom" constant="16" id="Sfa-ch-yzi"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="7fi-S0-qCf" secondAttribute="trailing" constant="4.5" id="Y9d-mQ-PjK"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="hSt-Uq-ffU" secondAttribute="bottom" id="eW2-bf-fPf"/>
-                            <constraint firstAttribute="trailing" secondItem="hSt-Uq-ffU" secondAttribute="trailing" id="kp9-2S-gt9"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="jPH-pb-izO" secondAttribute="trailing" constant="4.5" id="pXO-Br-OcB"/>
-                            <constraint firstAttribute="centerX" secondItem="7fi-S0-qCf" secondAttribute="centerX" id="pzW-NE-Ft1"/>
-                            <constraint firstItem="jPH-pb-izO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4.5" id="qVA-FX-Rf3"/>
-                            <constraint firstItem="jPH-pb-izO" firstAttribute="width" secondItem="7fi-S0-qCf" secondAttribute="width" id="sDd-Ty-M6b"/>
-                            <constraint firstItem="jPH-pb-izO" firstAttribute="top" secondItem="u73-7D-geE" secondAttribute="bottom" constant="16" id="txk-OU-roK"/>
-                            <constraint firstAttribute="centerX" secondItem="jPH-pb-izO" secondAttribute="centerX" id="wd7-I6-n8B"/>
+                            <constraint firstItem="Zv0-w8-4xH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2rq-VF-D2D"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YI8-9c-VbQ" secondAttribute="trailing" constant="-1" id="Cb8-aA-b8b"/>
+                            <constraint firstItem="YI8-9c-VbQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="4" id="DlN-Jy-Uv8"/>
+                            <constraint firstItem="YI8-9c-VbQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NiY-lX-oBz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Zv0-w8-4xH" secondAttribute="bottom" constant="8" id="XrJ-Tb-FLZ"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Treat Hunger" id="Ltg-L7-NmX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="666" y="325"/>
+            <point key="canvasLocation" x="1260" y="320.07042253521126"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3LV-6I-hjN">
@@ -148,7 +116,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8g2-uz-4wQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -157,21 +124,15 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBb-6a-fdT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="233.59999999999999" y="-329.44"/>
+            <point key="canvasLocation" x="612" y="320"/>
         </scene>
     </scenes>
     <resources>
-        <image name="background" width="136" height="242"/>
         <image name="bakerybutton" width="50" height="52"/>
         <image name="call" width="30" height="30"/>
         <image name="flowerbutton" width="50" height="52"/>
         <image name="frozenbutton" width="50" height="52"/>
         <image name="restaurantbutton" width="50" height="49"/>
     </resources>
-    <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
-        <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
-    </simulatedMetricsContainer>
-    <color key="tintColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+    <color key="tintColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
 </document>

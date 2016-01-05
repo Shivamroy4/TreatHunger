@@ -16,13 +16,13 @@ class ViewController: UIViewController {
         
         // Navigation Bar Customization
         
+        self.view.backgroundColor = UIColor.orangeColor()
         
-        navigationController!.navigationBar.barTintColor = UIColor.purpleColor()
+        navigationController!.navigationBar.barTintColor = UIColor.blackColor()
         
-        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor() ]
-
-        
-            }
+       
+        navigationController!.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.orangeColor()]
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
